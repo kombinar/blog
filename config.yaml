@@ -1,0 +1,28 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Kombinar"
+theme: "mini"
+paginate: 5
+
+defaultContentLanguage: en
+menu:
+  main:
+    - identifier: about
+      name: About
+      title: About
+      url: /about/
+      weight: 0
+
+params:
+  author: "Kombinar"
+  email: me@kombinar.xyz # used for microformats
+  avatar: "/images/me.png" # used for microformats
+  description: ""
+  style: light-without-switcher
+  readMore: false
+  disableSummary: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
